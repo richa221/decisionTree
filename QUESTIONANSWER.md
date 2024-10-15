@@ -1,4 +1,4 @@
-# short, clear explanation for every question below:#
+# short, clear explanation for every question below: #
 ## 1. How can we design the system in a way that every Company will be able to serve games on their gaming site from their domain?
 **Answer:** To allow companies their own game app on their desired domain we will have to use multi-tenant architecture which would have separated data for each site with their tenant(app).For which will have to create wildcard subdomain. and routing for the tenant based and when request received we can seperate by the tenant.
 
